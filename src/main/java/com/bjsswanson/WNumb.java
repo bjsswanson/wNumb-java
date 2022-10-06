@@ -1,7 +1,5 @@
 package com.bjsswanson;
 
-import org.apache.commons.lang.text.StrBuilder;
-
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
@@ -39,7 +37,7 @@ public class WNumb {
     }
 
     public String strReverse(String a){
-        return new StrBuilder(a).reverse().toString();
+        return new StringBuilder(a).reverse().toString();
     }
 
     public boolean strStartsWith(String input, String match) {
